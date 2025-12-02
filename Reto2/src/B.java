@@ -37,78 +37,12 @@
  * * La salida de ejemplo es una sola línea
  */
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class B {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Leer el primer tema
-        String primerTema = scanner.nextLine();
-        int numerosPares = Integer.parseInt(scanner.nextLine());
-
-        // Array para almacenar el orden de los temas
-        String[] temaAnterior = new String[numerosPares];
-        String[] temaSiguiente = new String[numerosPares];
-
-        // Leer los pares de temas y construir el orden
-        for (int i = 0; i < numerosPares; i++) {
-            String line = scanner.nextLine();
-            String[] pares = line.split("-", 2);
-
-            temaAnterior[i] = pares[0];
-            temaSiguiente[i] = (pares.length > 1) ? pares[1] : ""; // Manejar caso donde no hay segundo tema
-        }
-
-        // Array para almacenar el orden completo de los temas
-        String[] temaOrdenados = new String[numerosPares + 1];
-        temaOrdenados[0] = primerTema;
-
-        // Construir el orden completo de los temas
-        boolean continuar = true;
-
-        for (int posicion = 0; posicion < numerosPares && continuar; posicion++) {
-
-            String temaActual = temaOrdenados[posicion];
-            int indiceEncontrado = -1;
-            boolean encontrado = false; // Romper el bucle interno cuando se encuentra el tema
-
-            // Buscar el siguiente tema correspondiente al tema actual
-            for (int i = 0; i < numerosPares; i++) {
-
-                if (temaAnterior[i] != null && temaAnterior[i].equals(temaActual) && !encontrado) {
-                    indiceEncontrado = i;
-                    encontrado = true; // Romper el bucle interno
-                }
-            }
-
-            // Detenemos proceso si no se encuentra el siguiente tema
-            if (indiceEncontrado == -1) {
-                continuar = false; // Romper el bucle exterior
-            } else{
-                temaOrdenados[posicion + 1] = temaSiguiente[indiceEncontrado];
-            }
-
-        }
-
-        // Construir la salida en el formato requerido
-        StringBuilder salida = new StringBuilder(); // StringBuilder sirve para construir cadenas de texto de forma eficiente
-        boolean esPrimero = true;
-
-        for (String tema : temaOrdenados) {
-            if (tema != null) { // Evitar temas nulos
-                if (esPrimero) {
-                    salida.append(tema);
-                    esPrimero = false; // Ya no es el primero
-                } else {
-                    salida.append(",").append(tema);
-                    esPrimero = false; // Ya no es el primero
-                }
-            }
-        }
-
-        System.out.println(salida.toString());
-
-        scanner.close();
+        
     }
 }
