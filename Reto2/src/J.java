@@ -9,9 +9,9 @@ public class J {
 
             System.out.println("=== FELIZ 2025 - NÚMEROS CÚBICOS ===");
 
-            boolean continuar = true;
+            boolean continuar = true; // variable boleana para controlar el bucle en vez de usar brack
 
-            while (continuar) {
+            while (continuar) { // Primer acepta la información para que entre
                 System.out.println("Introduce un año entre 2000 y 2999 (0 para salir):");
                 int anio = sc.nextInt();
 
@@ -29,18 +29,19 @@ public class J {
         }
     }
 
+
     private static void procesarAnio(int n) {
         boolean encontrado = false;
         int inicio = -1;
         int fin = -1;
 
         int a = 1;
-        while (a * a * a <= n && !encontrado) {
+        while (a * a * a <= n && !encontrado) {  // mientras el cubo de a sea menor o igual a n
             int suma = 0;
             int b = a;
             boolean terminarInterno = false;
 
-            while (!terminarInterno) {
+            while (!terminarInterno) { // mientras no se haya terminado el bucle interno
                 int cubo = b * b * b;
                 suma = suma + cubo;
 
@@ -56,12 +57,12 @@ public class J {
                 }
             }
 
-            if (!encontrado) {
+            if (!encontrado) { // solo incrementa a si no se ha encontrado la solución
                 a = a + 1;
             }
         }
 
-        if (encontrado) {
+        if (encontrado) { // si se ha encontrado una solución
             System.out.println("El año " + n + " ES cúbico: " + inicio + " ... " + fin);
         } else {
             System.out.println("El año " + n + " NO es cúbico (NO CUBICO).");

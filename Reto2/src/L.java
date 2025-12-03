@@ -13,7 +13,7 @@ public class L {
 
             long[] dias = new long[n];
             int i = 0;
-            while (i < n) {
+            while (i < n) { // leemos cada cuánto libra cada amigo
                 System.out.println("Introduce cada cuántos días libra el amigo " + (i + 1) + ":");
                 dias[i] = sc.nextLong();
                 i = i + 1;
@@ -21,7 +21,7 @@ public class L {
 
             long resultado = dias[0];
             int j = 1;
-            while (j < n) {
+            while (j < n) {  // calculamos el mcm de todos los días
                 resultado = mcm(resultado, dias[j]);
                 j = j + 1;
             }
@@ -44,11 +44,11 @@ public class L {
     }
 
     private static long mcd(long a, long b) { // máximo común divisor
-        long x = a;
+        long x = a; // long para evitar overflow el -> overflow es cuando el número es demasiado grande para el tipo de dato
         long y = b;
         boolean seguir = true;
 
-        while (seguir) {
+        while (seguir) { // algoritmo de Euclides significa que el mcd de a y b es igual al mcd de b y el resto de a dividido entre b
             if (y == 0) {
                 seguir = false;
             } else {

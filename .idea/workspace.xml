@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a961654c-45df-4c8a-a2fd-d38122faee97" name="Cambios" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/H.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reto2/src/L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/E.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/F.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/G.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/H.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/I.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/J.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/K.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Reto2/L.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/F.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/F.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/H.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/J.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto2/src/L.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reto2/src/L.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +29,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Aplicación.B.executor": "Run",
-    "Aplicación.D.executor": "Run",
-    "Aplicación.EjercicioB.executor": "Run",
-    "Aplicación.F.executor": "Run",
-    "Aplicación.J.executor": "Run",
-    "Aplicación.L.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Fusionando main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Aplicación.B.executor&quot;: &quot;Run&quot;,
+    &quot;Aplicación.D.executor&quot;: &quot;Run&quot;,
+    &quot;Aplicación.EjercicioB.executor&quot;: &quot;Run&quot;,
+    &quot;Aplicación.F.executor&quot;: &quot;Run&quot;,
+    &quot;Aplicación.J.executor&quot;: &quot;Run&quot;,
+    &quot;Aplicación.L.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Aplicación.L">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B" />

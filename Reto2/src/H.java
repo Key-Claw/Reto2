@@ -10,7 +10,7 @@ public class H {
             Scanner sc = new Scanner(System.in);
 
             System.out.println("=== DENTRO DEL LABERINTO ===");
-            System.out.println("Introduce el número de filas y columnas del laberinto (por ejemplo: 3 5):");
+            System.out.println("Introduce el número de filas y columnas del laberinto (ejemplo: 3 5):");
             int filas = sc.nextInt();
             int columnas = sc.nextInt();
             sc.nextLine(); // limpiar salto de línea
@@ -30,9 +30,9 @@ public class H {
             boolean sePuedeSalir = hayCamino(lab);
 
             if (sePuedeSalir) {
-                System.out.println("Resultado: SI se puede salir del laberinto.");
+                System.out.println("SI se puede salir del laberinto.");
             } else {
-                System.out.println("Resultado: NO se puede salir del laberinto.");
+                System.out.println("NO se puede salir del laberinto.");
             }
 
         } catch (Exception e) {

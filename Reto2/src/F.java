@@ -25,11 +25,11 @@ public class F {
             boolean finIntroducido = false;
 
             System.out.println("Ahora ve introduciendo el resto de etapas, una por línea.");
-            System.out.println("Formato: TIPO KMS (ej: PLANA 120)");
-            System.out.println("Cuando quieras indicar la última etapa, escribe FIN 50 (por ejemplo).");
+            System.out.println("Ejemplo en KMS: PLANA 120");
+            System.out.println("Cuando quieras indicar la última etapa, escribe FIN 50.");
 
             while (!finIntroducido) {
-                System.out.println("Introduce una etapa (o FIN 50 para terminar):");
+                System.out.println("Introduce una etapa (FIN 50 para terminar):");
                 String linea = sc.nextLine().trim();
 
                 if (linea.length() == 0) {
@@ -39,13 +39,13 @@ public class F {
                     String tipo = partes[0];
                     int kms = Integer.parseInt(partes[1]);
 
-                    if (tipo.equals("FIN")) {
+                    if (tipo.equals("FIN")) { // etapa final
                         totalKm = totalKm + kms;
                         finIntroducido = true;
                     } else {
                         boolean ok = true;
 
-                        if (kms > 200) {
+                        if (kms > 200) { // comprobar si supera 200 kms
                             ok = false;
                         }
 
@@ -54,7 +54,7 @@ public class F {
                             ya = kmPorTipo.get(tipo);
                         }
 
-                        if (ok) {
+                        if (ok) { // comprobar si se supera 300 kms de este tipo
                             int nuevoTotalTipo = ya + kms;
                             if (nuevoTotalTipo > 300) {
                                 ok = false;
@@ -68,12 +68,12 @@ public class F {
                             }
                         }
 
-                        if (ok) {
+                        if (ok) { // se acepta la etapa
                             System.out.println("Esta etapa se ACEPTA (OK).");
                             kmPorTipo.put(tipo, ya + kms);
                             etapasAceptadas = etapasAceptadas + 1;
                             totalKm = totalKm + kms;
-                        } else {
+                        } else { // se rechaza la etapa
                             System.out.println("Esta etapa se RECHAZA (KO).");
                         }
                     }
