@@ -1,8 +1,8 @@
 //F. ORGANIZANDO VUELTAS CICLISTAS
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.HashMap;   // para usar HashMap
+import java.util.Map;       // para usar Map
+import java.util.Scanner;   // para leer entrada
 
 public class F {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class F {
 
             int totalKm = kmPrologo;
             int etapasAceptadas = 0; // sin contar PROLOGO y FIN
-            Map<String, Integer> kmPorTipo = new HashMap<>();
+            Map<String, Integer> kmPorTipo = new HashMap<>(); // clave: tipo, valor: kms acumulados
 
             boolean finIntroducido = false;
 
@@ -50,7 +50,7 @@ public class F {
                         }
 
                         int ya = 0;
-                        if (kmPorTipo.containsKey(tipo)) {
+                        if (kmPorTipo.containsKey(tipo)) {  // si ya hay kms de este tipo
                             ya = kmPorTipo.get(tipo);
                         }
 
