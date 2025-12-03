@@ -10,24 +10,22 @@ public class B {
         try {
             Scanner sc = new Scanner(System.in);
 
-            System.out.println("======================================");
-            System.out.println("           ORDENANDO LOS APUNTES");
-            System.out.println("======================================");
-            System.out.println();
+
+            System.out.println("=== ORDENANDO LOS APUNTES ===");
+
             System.out.println("Este programa reconstruye el orden correcto de los temas.");
             System.out.println("Vas a introducir los datos en tres pasos:");
             System.out.println("  1) El primer tema.");
             System.out.println("  2) El numero de parejas de temas.");
             System.out.println("  3) Cada pareja en formato TEMA1-TEMA2.");
-            System.out.println();
 
-            // 1) Leer el primer tema
+            // Primer tema
             System.out.println("Escribe el PRIMER tema del examen");
             System.out.println("Ejemplo: LA EDAD MEDIA");
             System.out.print("Primer tema: ");
             String primerTema = sc.nextLine().trim(); // puede contener espacios
 
-            // 2) Leer el número de fragmentos
+            // Fragmentos
             System.out.println();
             System.out.println("Escribe cuantas parejas de temas tienes");
             System.out.println("Debe ser un numero entero positivo.");
@@ -37,12 +35,11 @@ public class B {
             // Mapa que relaciona un tema con el siguiente
             Map<String, String> siguiente = new HashMap<>(); // clave: tema1, valor: tema2
 
-            // 3) Leer las parejas
+            // Parejas de temas
             System.out.println();
             System.out.println("Introduce cada pareja de temas.");
             System.out.println("Formato obligatorio: TEMA1-TEMA2");
             System.out.println("Ejemplo: LA EDAD MEDIA-REVOLUCION LIBERAL");
-            System.out.println();
 
             int contador = 0;
             while (contador < n) {
