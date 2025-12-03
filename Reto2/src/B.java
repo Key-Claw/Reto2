@@ -17,13 +17,13 @@ public class B {
             System.out.println("  2) El numero de parejas de temas.");
             System.out.println("  3) Cada pareja en formato TEMA1-TEMA2.\n");
 
-            // 1) Leer el primer tema
+            // Primer tema
             System.out.println("Escribe el PRIMER tema del examen");
             System.out.println("Ejemplo: LA EDAD MEDIA");
             System.out.print("Primer tema: ");
             String primerTema = sc.nextLine().trim(); // puede contener espacios
 
-            // 2) Leer el número de fragmentos
+            // Fragmentos
             System.out.println();
             System.out.println("Escribe cuantas parejas de temas tienes");
             System.out.println("Debe ser un numero entero positivo.");
@@ -33,7 +33,7 @@ public class B {
             // Mapa que relaciona un tema con el siguiente
             Map<String, String> siguiente = new HashMap<>(); // clave: tema1, valor: tema2
 
-            // 3) Leer las parejas
+            // Pareja de temas
             System.out.println();
             System.out.println("Introduce cada pareja de temas.");
             System.out.println("Formato obligatorio: TEMA1-TEMA2");
