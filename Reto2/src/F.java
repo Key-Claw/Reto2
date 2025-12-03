@@ -9,7 +9,7 @@ public class F {
         try {
             Scanner sc = new Scanner(System.in);
 
-            System.out.println("=== ORGANIZANDO VUELTAS CICLISTAS (Ejercicio F) ===");
+            System.out.println("=== ORGANIZANDO VUELTAS CICLISTAS ===");
             System.out.println("Primero introduce la etapa PROLOGO (tipo y kilómetros).");
             System.out.println("Ejemplo: PROLOGO 50");
 

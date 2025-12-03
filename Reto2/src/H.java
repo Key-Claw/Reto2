@@ -9,7 +9,7 @@ public class H {
         try {
             Scanner sc = new Scanner(System.in);
 
-            System.out.println("=== DENTRO DEL LABERINTO (Ejercicio H) ===");
+            System.out.println("=== DENTRO DEL LABERINTO ===");
             System.out.println("Introduce el número de filas y columnas del laberinto (por ejemplo: 3 5):");
             int filas = sc.nextInt();
             int columnas = sc.nextInt();

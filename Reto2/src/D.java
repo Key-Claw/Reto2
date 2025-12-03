@@ -7,7 +7,7 @@ public class D {
         try {
             Scanner sc = new Scanner(System.in);
 
-            System.out.println("=== PREPARANDO LA COMIDA (Ejercicio D) ===");
+            System.out.println("=== PREPARANDO LA COMIDA ===");
             System.out.println("Introduce la hora de inicio en formato H:MM (por ejemplo, 15:30):");
             String horaInicio = sc.nextLine().trim();
 
