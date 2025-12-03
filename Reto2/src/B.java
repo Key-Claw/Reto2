@@ -1,4 +1,4 @@
-//B. ORDENANDO LOS APUNTES
+// B. ORDENANDO LOS APUNTES
 
 import java.util.HashMap;
 import java.util.Map;

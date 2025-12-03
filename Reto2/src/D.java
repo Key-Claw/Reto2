@@ -1,4 +1,4 @@
-//D. PREPARANDO LA COMIDA
+// D. PREPARANDO LA COMIDA
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-//H. DENTRO DEL LABERINTO
+// H. DENTRO DEL LABERINTO
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-//L. QUEDANDO CON LA CUADRILLA
+// L. QUEDANDO CON LA CUADRILLA
 
 import java.util.Scanner;
 
