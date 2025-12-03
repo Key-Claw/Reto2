@@ -1,4 +1,0 @@
-//F. ORGANIZANDO VUELTAS CICLISTAS
-
-public class F {
-}
