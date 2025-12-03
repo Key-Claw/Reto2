@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a961654c-45df-4c8a-a2fd-d38122faee97" name="Cambios" comment="" />
+    <list default="true" id="a961654c-45df-4c8a-a2fd-d38122faee97" name="Cambios" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/H.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reto2/src/L.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/E.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/F.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/G.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/H.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/I.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/J.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/K.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Reto2/L.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Fusionando main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -93,6 +119,17 @@
       <updated>1764683372203</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
